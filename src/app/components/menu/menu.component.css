@@ -4,7 +4,7 @@
     display: inline-block;
     margin-top: 20px;
     margin-left:20px;
-    background-color: hsla(209, 23%, 22%);
+    background-color: rgb(0,225,81);
     border-radius: 0.375rem;
 }
 
@@ -30,4 +30,4 @@
 }
 ::ng-deep .mat-form-field-placeholder {
     color: #fff;   
-  }
+}

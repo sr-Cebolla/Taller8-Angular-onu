@@ -1,4 +1,4 @@
-<button mat-raised-button style="color:hsl(209, 23%, 22%) ;"  [routerLink]="['/menu']">Back</button>
+<button mat-raised-button style="color:rgb(0, 255, 81);" [routerLink]="['/menu']">Back</button>
 <table *ngFor="let detalle of paisDetalle">
     <tr>
         <td>
@@ -12,8 +12,10 @@
             <p> Región: {{detalle.region}}</p>
             <p> Subregión: {{detalle.subregion}}</p>
             <a *ngFor="let frontera of detalle.fronteras">
-                <button mat-raised-button>{{frontera}}</button>
-            </a>
+               <button mat-raised-button style="margin-left: 5px ; margin-top: 5px;color: rgb(0, 255, 81);">
+                    {{frontera}}
+                </button>
+           </a>
         </td>
     </tr>
 </table>
